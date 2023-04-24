@@ -1,6 +1,7 @@
 from sklearn.datasets import load_boston
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
+from sklearn.model_selection import train_test_split
+
 from symbolic_regression import SymbolicRegressorGPPI
 
 # Load Boston housing dataset
